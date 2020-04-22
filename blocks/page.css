@@ -1,0 +1,22 @@
+@import url(./header/header.css);
+@import url(./lead/lead.css);
+@import url(./intro/intro.css);
+@import url(./photo-grid/photo-grid.css);
+@import url(./place/place.css);
+@import url(./places/places.css);
+@import url(./footer/footer.css);
+@import url(./cover/cover.css);
+@import url(../fonts/fonts.css);
+
+.page {
+    background-color: #2A2C2F;
+    margin: 0 auto;
+    font-family: Inter, Helvetica, sans-serif;
+    min-width: 320px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}

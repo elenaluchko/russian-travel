@@ -1,0 +1,32 @@
+.cover__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    max-width: 360px;
+    margin-top: calc(17% + 2*72px + 32px);
+    position: absolute;
+    z-index: 1;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cover__subtitle {
+        margin-top: calc(14% + 2*72px + 32px);
+    }
+}
+
+@media (max-width: 767px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 1.14;
+        margin-top: calc(9% + 2*32px + 16px);
+        max-width: 84.9%;
+    }
+}
+
+.cover__subtitle:hover ~ .cover__overlay {
+    background: #2A2C2F;
+    opacity: 0.8;
+    cursor: pointer;
+}

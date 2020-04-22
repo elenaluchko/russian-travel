@@ -1,0 +1,27 @@
+.header__lang-link {
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 1.17;
+    padding-top: 0.75em;
+}
+
+.header__lang-link:last-of-type {
+    text-decoration: none;
+}
+
+.header__lang-link:last-of-type:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .header {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,28 @@
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__logo/header__logo.css);
+.header {
+  display: grid;
+  grid-template-columns: 1fr fit-content(100%) fit-content(100%);
+  grid-gap: 1.2em;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    margin: 1.2em 2em 0 2em;
+    grid-template-rows: 52px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    margin: 1.166em 2em 0 2em;
+    grid-template-rows: 52px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    margin: 0.88em 0.88em 0 0.88em;
+    grid-template-rows: 42px;
+  }
+}

@@ -1,0 +1,18 @@
+@import url(./__copyright/footer__copyright.css);
+@import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(min-content, max-content)) 1fr;
+    grid-gap: 18px;
+    width: 92.5%;
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}

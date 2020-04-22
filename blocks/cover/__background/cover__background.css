@@ -1,0 +1,13 @@
+@media (min-width: 1025px) {
+  .cover__background {
+    width: 92.5%;
+    object-fit: cover;
+    margin: 0 auto 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cover__background {
+    width: 100%;
+  }
+}
