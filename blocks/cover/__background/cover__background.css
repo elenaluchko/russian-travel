@@ -1,7 +1,6 @@
 @media (min-width: 1025px) {
   .cover__background {
     width: 92.5%;
-    height: 57.8125vw;
     object-fit: cover;
     margin: 0 auto 0 auto;
   }
