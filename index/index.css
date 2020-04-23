@@ -1,5 +1,5 @@
-@import url(/vendor/normalize.css);
-@import url(./blocks/page.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
 
 
 /* Рабочая разметка блоков  */

@@ -1,3 +1,4 @@
+@import url(./_inactive/header__lang-link_inactive.css);
 .header__lang-link {
     font-style: normal;
     font-weight: normal;
@@ -6,12 +7,8 @@
     padding-top: 0.75em;
 }
 
-.header__lang-link:last-of-type {
-    text-decoration: none;
-}
-
-.header__lang-link:last-of-type:hover {
-    text-decoration: underline;
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 @media (min-width: 768px) {
@@ -20,7 +17,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .header {
         font-size: 18px;
     }

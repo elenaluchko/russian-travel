@@ -1,10 +1,10 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
+@import url(./__content/footer__content.css);
 .footer {
     display: grid;
-    grid-template-columns: repeat(5, minmax(min-content, max-content)) 1fr;
-    grid-gap: 18px;
+    grid-template-columns: repeat(2, 1fr);
     width: 92.5%;
     margin: 0 auto;
     padding-bottom: 1.5em;
