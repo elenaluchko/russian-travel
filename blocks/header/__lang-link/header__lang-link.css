@@ -1,15 +1,15 @@
-@import url(./_inactive/header__lang-link_inactive.css);
 .header__lang-link {
     font-style: normal;
     font-weight: normal;
     color: #ffffff;
     line-height: 1.17;
     padding-top: 0.75em;
+    text-decoration: none;
 }
 
 .header__lang-link:hover {
     opacity: 0.8;
-}
+} 
 
 @media (min-width: 768px) {
     .header {

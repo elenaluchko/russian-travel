@@ -1,6 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page.css);
 
+body {
+    background-color: #2A2C2F;
+}
 
 /* Рабочая разметка блоков  */
 
