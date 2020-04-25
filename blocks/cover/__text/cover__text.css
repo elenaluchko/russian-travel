@@ -7,6 +7,12 @@
     left: auto;
 }
 
+.cover__text:hover ~ .cover__overlay {
+    background: #2A2C2F;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .cover__text {
         top: 30%;
@@ -19,3 +25,4 @@
         grid-gap: 16px;
     }
 }
+
