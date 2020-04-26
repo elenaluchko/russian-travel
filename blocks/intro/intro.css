@@ -2,7 +2,7 @@
 @import url(./__item/intro__item.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
-@import url(./__span-bold/intro__span-bold.css);
+@import url(./__item/_bold/intro__item_bold.css);
 .intro {
     color: #ffffff;
     display: grid;
