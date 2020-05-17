@@ -1,0 +1,5 @@
+.header__menu:hover {
+    opacity: 0.5;
+    transition: ease-in opacity .1s;
+    cursor: pointer;
+}

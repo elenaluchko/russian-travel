@@ -1,0 +1,7 @@
+@import url(./__caption/service__caption.css);
+@import url(./__pic/service__pic.css);
+
+.service {
+    display: flex;
+    flex-direction: column;
+}

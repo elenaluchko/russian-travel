@@ -1,12 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/intro/__button/_type/intro__button_type_connect.css);
+@import url(../blocks/intro/__button/_type/intro__button_type_price.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/services/services.css);
+@import url(../blocks/service/service.css);
 
 body {
-    background-color: #2A2C2F;
+    background-color: #ffffff;
 }
-
-/* Рабочая разметка блоков  */
-
-/* div {
-    border: red 1px solid;
-} */

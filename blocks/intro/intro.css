@@ -1,37 +1,13 @@
-@import url(./__span-bold/intro__span-bold.css);
-@import url(./__list/intro__list.css);
-@import url(./__item/intro__item.css);
-@import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
-
+@import url(./__button/intro__button.css);
 .intro {
-    color: #ffffff;
+    background-image: url(../../images/man.png);
+    background-repeat: no-repeat;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 690px;
-}
-
-@media (min-width: 1280px) {
-    .intro {
-        padding: 0 0 0 11.73%;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-    .intro {
-        padding: 0 0 0 3.9%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .intro {
-        padding: 0 3.125% 0 3.125%;
-        max-width: 720px;
-    }
-}
-
-@media (max-width: 767px) {
-    .intro {
-        padding: 0 5% 0 5%;
-    }
+    grid-template-columns: 300px 300px;
+    grid-template-rows: repeat(2, max-content);
+    padding: 10% 5% 10% 50%;
+    grid-row-gap: 10%;
+    width: 90%;
+    
 }

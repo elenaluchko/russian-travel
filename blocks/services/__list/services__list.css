@@ -1,0 +1,9 @@
+.services__list {
+    margin: 0 auto;
+    padding-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5em;
+    grid-template-rows: repeat(2, max-content);
+    justify-items: center;
+}
