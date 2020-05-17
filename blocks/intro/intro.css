@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 @import url(./__title/intro__title.css);
 @import url(./__button/intro__button.css);
+=======
+@import url(./__list/intro__list.css);
+@import url(./__item/intro__item.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
+>>>>>>> parent of f8c58ba... Включила элемент span-bold в блок item. Теперь item__span-bold
 .intro {
     background-image: url(../../images/man.png);
     background-repeat: no-repeat;
